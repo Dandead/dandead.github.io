@@ -1,0 +1,38 @@
+{
+    "page_name": "Ships",
+    "page_description": [
+        "Все игровые и не игровые расы",
+        {"table": [
+            ["Организация", "название", "цвет"],
+            ["Медан", "Ирриец", "Жёлтый"],
+            ["Нео-Альянс", "Анид", "Зеленый"]
+        ]}
+    ],
+    "page_data": [
+        {
+            "name": "Анид",
+            "obj_image": ["images/anid.png"],
+            "data": [
+                "Some text",
+                {"table": [
+                    ["", ""],
+                    ["устройства", "page_link"],
+                    ["корабли", "page_link"]
+                ]}
+            ]
+        },
+        {
+            "name": "Ирриец",
+            "obj_image": ["images/irrian1.png", "images/iriian2.png"],
+            "data": [
+                "Вторая игровая раса",
+                {"image": "images/irrian3.png"},
+                {"table": [
+                    ["", ""],
+                    ["устройства", "page_link"],
+                    ["корабли", "page_link"]
+                ]}
+            ]
+        }
+    ]
+}
